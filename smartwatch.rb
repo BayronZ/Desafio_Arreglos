@@ -23,6 +23,7 @@ def clear_steps(arr)
     valid_steps_to_i.select do |ele|
         ele >= 200 && ele <= 100000
     end
+    
     #descartar menores a 200 o mayores a 100k
     #seleccionamos los que estén entre 199 y 100K
     #deben ser numeros los valores
