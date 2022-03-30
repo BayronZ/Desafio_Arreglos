@@ -13,10 +13,23 @@ def compara_arrays(arr1, arr2)
     #devuelve el mayor
     arr3 = []
     #calcular el promedio de ambos y los pusheamos al arr3
-    arr3.push(promedio(arr1))
-    arr3 << promedio(arr2)
+    # arr3.push(promedio(arr1))
+    # arr3 << promedio(arr2)
     #devuelve el mayor
-    arr3.max
+    # arr3.max
+
+    #con condiciones
+    average_1 = arr1.sum/arr1.size
+    average_2 = arr2.sum/arr2.size
+
+    if average_1 > average_2
+        print average_1
+    elsif average_1 < average_2
+        print average_2
+    else
+        print "son iguales"
+
+    end
 
 
 
