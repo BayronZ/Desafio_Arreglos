@@ -20,5 +20,5 @@ def promedio (arr)
     arr.sum/arr_quantity
 end
 
-print promedio(visitas)
-puts
+# print promedio(visitas)
+# puts
